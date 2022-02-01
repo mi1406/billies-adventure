@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Battle
+comment0.text=\r\n\ Class\ Battle.\r\n\ A\ game\ within\ the\ game,\ copies\ most\ of\ it's\ functionality\ and\ implementation\ from\r\n\ "World\ of\ Zuul"\ a\ game\ by\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes.\ \r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (27/04/2020)\r\n
+comment1.params=heroStats\ enemyStats
+comment1.target=Battle(Hero,\ Hero)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Battle\r\n\ A\ turn\ based\ combat\ mechanic.\r\n
+comment2.params=
+comment2.target=void\ battle()
+comment2.text=\r\n\ Equivalent\ to\ method\ play\ in\ "Game"\r\n\ Checks\ if\ both\ ennemies\ are\ alive,\ if\ not\ the\ battle\ ends,\r\n\ the\ evaluation\ wheter\ the\ player\ wins\ or\ looses\ is\ done\ in\ Game\ class.\r\n
+comment3.params=
+comment3.target=void\ printPrompt()
+comment3.text=\r\n\ Prints\ prompt.\r\n
+comment4.params=command\ heroFirst
+comment4.target=void\ processCommand(Command,\ boolean)
+comment4.text=\r\n\ Same\ as\ the\ method\ in\ class\ Game.\r\n\ Exists\ only\ so\ the\ original\ method\ stay\ private.\r\n\ Uses\ different\ command\ words\ since\ the\ actor\ battles\ and\r\n\ does\ not\ navigate.\r\n\ @param\ Command\ returned\ by\ parser\ and\ entered\ by\ player\r\n\ @boolean\ deside\ if\ the\ player\ or\ the\ enemy\ goes\ first.\r\n
+comment5.params=
+comment5.target=void\ heroDamage()
+comment5.text=\r\n\ Saves\ typing\ the\ same\ code\ over\ and\ over.\r\n\ Calculates\ the\ damage\ dealth\ by\ the\ player\ at\ the\ given\ turn.\r\n\ Uses\ the\ equivalent\ of\ a\ six\ sided\ die\ for\ attack\ boost.\r\n
+comment6.params=
+comment6.target=void\ doubleDamage()
+comment6.text=\r\n\ Actually\ the\ outcome\ of\ the\ player\ using\ command\ defend.\r\n\ The\ idea\ is\ that\ the\ enemy\ attack\ bounces\ back.\r\n
+comment7.params=command\ heroFirst
+comment7.target=void\ useItem(Command,\ boolean)
+comment7.text=\r\n\ Allows\ the\ player\ to\ use\ an\ item\ in\ battle\ \r\n\ either\ a\ heal\ or\ pp(Power\ Points)\ restore.\r\n\ Same\ implementation\ as\ goRoom()\ in\ game.\r\n\ Player\ does\ not\ attack\ if\ item\ is\ used.\r\n\ @param\ command\ user\ input\ processed\ by\ the\ parser\r\n\ @param\ boolean\ checks\ if\ hero\ geos\ first.\r\n
+numComments=8

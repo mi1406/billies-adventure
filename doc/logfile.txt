@@ -1,0 +1,38 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-4.11.jar;C:\Program Files\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files\BlueJ\lib\lang-stride.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.base.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.controls.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.fxml.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.graphics.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.media.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.properties.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.swing.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.web.jar;C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure
+-d
+C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\Inventory.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\Inventory.java...
+Constructing Javadoc information...
+Standard Doclet version 11.0.2
+Building tree for all the packages and classes...
+Generating C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\doc\Inventory.html...
+C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\Inventory.java:54: warning - @param argument "nameItem" is not a parameter name.
+Generating C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\doc\package-summary.html...
+Generating C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\doc\allclasses.html...
+Generating C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\doc\allclasses.html...
+Generating C:\Users\m\Desktop\UNI\SC\SC2\lab4\billies-adventure\doc\index.html...
+1 warning
